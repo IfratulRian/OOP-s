@@ -6,6 +6,9 @@ public class Polymorphism {
     void show(int n){
         System.out.println("The number is "+ n);
     }
+    void show(long n){
+        System.out.println("The number is "+n); // type of arg.
+    }
     // No. of sequence
     void show(int n, String s){
         System.out.println("The number is "+n+" & the string is "+s);
